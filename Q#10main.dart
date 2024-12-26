@@ -14,7 +14,7 @@ void main() {
     "hanif",
     "ayan"
   ];
- List unique = names.toSet().toList();
-  print(unique);
+ // List unique = names.toSet().toList();
+  // print(unique);
 
 }
