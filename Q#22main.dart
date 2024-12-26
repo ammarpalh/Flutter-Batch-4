@@ -3,5 +3,21 @@
 // exists in the cart. Print "Product found" if it exists, otherwise print "Product not
 // found".
 void main(){
-  
+   Map<String, dynamic> shoppingCart = {
+    "oil": "5Litre",
+    "flour": "10Kg",
+    "mango": "2Kg",
+    "softDrink": 2
+  };
+  if (shoppingCart.containsKey("apple")) {
+    print("Product found");
+  } else {
+    print("Product not found");
+  }
+
+}
+
+// Answer is ->
+//            Product not found
+
 }
