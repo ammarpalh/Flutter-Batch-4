@@ -2,8 +2,19 @@
 // elements, returning a new list without duplicates. The order of elements in the
 // new list should be the same as in the original list.
 void main(){
-Dart code List<string>;
-list1;
-orig list;
+void main() {
+
+  List<String> names = [
+    "ammar",
+    "hammad",
+    "abdullah",
+    "kashif",
+    "sallar",
+    "amjad",
+    "hanif",
+    "ayan"
+  ];
+ List unique = names.toSet().toList();
+  print(unique);
 
 }
