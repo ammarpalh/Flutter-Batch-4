@@ -2,5 +2,12 @@
 // numbers from a list of integers. The program should take in the original list as a
 // parameter and print a new list containing only the even numbers.
 void main(){
-  
+   List <int> digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List <int> evenDigits = digits.where((number) => (number%2==0)).toList();
+  print("Even Numbers: $evenDigits");
+
+}
+
+// Answer is ->
+//            Even Numbers: [2, 4, 6, 8, 10]
 }
