@@ -3,5 +3,18 @@
 // car is a sedan and red in color. Print "Match" if both conditions are true,
 // otherwise print "No match".
 void main(){
-  
+  Map <String, dynamic> car = {"brand": "Toyota", "color": "Red", "isSedan": true};
+  bool sedan = car["isSedan"];
+  String color = car["color"];
+  if(sedan && color == "Red"){
+    print("Match");
+  }else{
+    print("No match");
+  }
+
+}
+
+// Answer is ->
+//             Match
+
 }
